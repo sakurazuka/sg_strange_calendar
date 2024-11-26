@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'rspec', '~> 3.13'
+gem 'rblineprof', '~> 0.3.7'
+gem 'rblineprof-report', '~> 0.0.4'

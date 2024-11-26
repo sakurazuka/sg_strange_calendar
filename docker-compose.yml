@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  calender_ruby:
+    build:
+      context: .
+      dockerfile: ./env/docker/ruby/Dockerfile
+    volumes:
+      - ./src/:/root/src
+      - ./env/docker/ruby/_bashrc:/root/.bashrc
+    tty: true
